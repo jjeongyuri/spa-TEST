@@ -6,6 +6,7 @@ import data from '../Api/data.json';
 
 export default function WishList() {
     const [dataFromBy, setDataFromBy] = useState([]);
+    // 4. I have a question
     useEffect(() => {
         const NestData = getWishList();
         setDataFromBy(NestData);
@@ -19,7 +20,7 @@ export default function WishList() {
     const changeNum = (num) => {
         setQuantity(num);
         setTotal(num * total);
-    }
+    };
 
 
 
