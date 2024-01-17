@@ -22,11 +22,13 @@ const wishlist = JSON.parse(localStorage.getItem((WISHLIST_KEY) || '{}'));
 
 // (Add)
 export function addWishList(dataSlug){
+    // 1. I don't understand
     wishlist[dataSlug] = true;
     localStorage.setItem(WISHLIST_KEY,JSON.stringify(wishlist));
 }
 
 export function getWishList(){
+    // 2. I don't understand
    return data.filter((item)=>wishlist[item.slug])
 }
 
