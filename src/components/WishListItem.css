@@ -1,0 +1,67 @@
+.wishlistproduct{}
+.wishlistproduct>li{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.wishlistproduct>li>figure{
+    display: flex;  
+    align-items: center;
+}
+.wishlistproduct>li>figure>p{
+    width: 10%;
+}
+.wishlistproduct>li>figure>p>img{
+    width: 100%;
+}
+.wishlistproduct>li>figure>figcaption{
+    width: 90%;
+    display: flex;
+}
+.leftdl{
+    font-size: 14px;
+    color: #1c1c1c;
+    line-height: 24px;
+    width: 44%;
+
+}
+.leftdl>dt{}
+.leftdl>dd{}
+
+.rightdl{
+    width: 52%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.rightdl>dt{}
+.rightdl>dd{
+    width: 13%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.minus{
+    margin-right: 7px;
+}
+.plus{
+    margin-left: 7px;
+}
+.rightdl>dd>p{}
+.rightdl>dd>select{
+    width: 45px;
+    text-align: center;
+    height: 25px;
+}
+.rightdl>dd>select>option{}
+.rightdl>dd:last-child{
+    position: absolute;
+    right: 0; top: 55px;
+    font-size: 12px;
+}
+.rightdl>dd:last-child>button{
+    border: none;
+    border-bottom: 1px solid #1c1c1c;
+    background-color: #fcf9ee;
+    cursor: pointer;
+}
