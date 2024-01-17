@@ -60,6 +60,7 @@ export default function Header() {
                     <li>
                         <Link to="wishlist">
                             <BiShoppingBag />
+                            {/* 5. error or fix */}
                             {
                             listData.length > 0 ?
                             <p>{listData.length}</p> :
