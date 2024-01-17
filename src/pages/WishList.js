@@ -11,6 +11,9 @@ export default function WishList() {
         const NestData = getWishList();
         setDataFromBy(NestData);
     }, []);
+
+    // 계산부분
+    // 6. I don't understand / error or fix
     const [quantity, setQuantity] = useState(1);
     const finds = data.find((item)=>item.price);
     const producePrice = finds.price
@@ -21,7 +24,7 @@ export default function WishList() {
         setQuantity(num);
         setTotal(num * total);
     };
-
+    // 
 
 
     return (
