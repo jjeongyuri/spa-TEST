@@ -29,12 +29,12 @@ export default function WishListItem({item,setDataFromBy,total,quantity,changeNu
                     <dd>
                         <button type='button'
                                 className='minus'
-                                onClick={changeNum}
                                 >-</button>
                         <p>{quantity}</p>
+                        {/* // 6. I don't understand / error or fix */}
                         <button type='button'
                                 className='plus'
-                                
+                                onClick={changeNum}
                                 >+</button>
                     </dd>
                     <dd>₩{total}</dd>
