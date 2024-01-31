@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/spa-TEST/static/css/main.e84c1cb8.css",
+    "main.js": "/spa-TEST/static/js/main.bbe98e2d.js",
+    "static/media/logo.webp": "/spa-TEST/static/media/logo.ae8b2789926dbb883057.webp",
+    "index.html": "/spa-TEST/index.html",
+    "main.e84c1cb8.css.map": "/spa-TEST/static/css/main.e84c1cb8.css.map",
+    "main.bbe98e2d.js.map": "/spa-TEST/static/js/main.bbe98e2d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e84c1cb8.css",
+    "static/js/main.bbe98e2d.js"
+  ]
+}
